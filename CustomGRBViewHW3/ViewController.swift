@@ -20,7 +20,7 @@ final class ViewController: UIViewController {
     @IBOutlet var setBlueLevelSlider: UISlider!
     
     private var rgbLevels: UIColor {
-        return UIColor(
+        UIColor(
             red: CGFloat(setRedLevelSlider.value),
             green: CGFloat(setGreenLevelSlider.value),
             blue: CGFloat(setBlueLevelSlider.value),
