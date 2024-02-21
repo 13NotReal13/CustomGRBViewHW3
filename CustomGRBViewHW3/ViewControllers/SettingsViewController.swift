@@ -40,10 +40,9 @@ final class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         rgbView.layer.cornerRadius = 15
-        
         rgbView.backgroundColor = backgroundColor
-        setRGBComponentsFromColor(from: backgroundColor)
         
+        setRGBComponentsFromColor(from: backgroundColor)
         setSliders()
     }
     

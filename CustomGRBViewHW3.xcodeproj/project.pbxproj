@@ -39,6 +39,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		794A7B2E2B869AFE002BA1B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				79EC2E192B6C2F0800415E5E /* SettingsViewController.swift */,
+				794A7B2B2B860073002BA1B5 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		794A7B2F2B869B10002BA1B5 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				79EC2E152B6C2F0800415E5E /* AppDelegate.swift */,
+				79EC2E172B6C2F0800415E5E /* SceneDelegate.swift */,
+				79EC2E232B6C2F0A00415E5E /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		794A7B322B869B4C002BA1B5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				79EC2E1B2B6C2F0800415E5E /* Main.storyboard */,
+				79EC2E202B6C2F0A00415E5E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		79EC2E092B6C2F0800415E5E = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +86,10 @@
 		79EC2E142B6C2F0800415E5E /* CustomGRBViewHW3 */ = {
 			isa = PBXGroup;
 			children = (
-				79EC2E152B6C2F0800415E5E /* AppDelegate.swift */,
-				79EC2E172B6C2F0800415E5E /* SceneDelegate.swift */,
-				794A7B2B2B860073002BA1B5 /* MainViewController.swift */,
-				79EC2E192B6C2F0800415E5E /* SettingsViewController.swift */,
-				79EC2E1B2B6C2F0800415E5E /* Main.storyboard */,
+				794A7B2E2B869AFE002BA1B5 /* ViewControllers */,
+				794A7B322B869B4C002BA1B5 /* Storyboards */,
+				794A7B2F2B869B10002BA1B5 /* Configurations */,
 				79EC2E1E2B6C2F0A00415E5E /* Assets.xcassets */,
-				79EC2E202B6C2F0A00415E5E /* LaunchScreen.storyboard */,
-				79EC2E232B6C2F0A00415E5E /* Info.plist */,
 			);
 			path = CustomGRBViewHW3;
 			sourceTree = "<group>";
