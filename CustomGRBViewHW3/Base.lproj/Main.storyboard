@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="R7f-IA-lpn"/>
-                        <color key="backgroundColor" red="0.22055026210000001" green="0.64813523760000002" blue="0.64275458070000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="OSf-Ty-1Un">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.pencil" catalog="system" id="rKq-x0-eiM">
@@ -142,7 +142,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.2661398588526912" green="0.39532973442108404" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.067643669094989894" green="0.31385024477393469" blue="0.68148279671717171" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="nBY-vi-fwy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OJK-9T-nW5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Gz-W9-Rgc" secondAttribute="bottom" constant="180" id="Wky-DV-zxc"/>
